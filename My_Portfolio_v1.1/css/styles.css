@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: "poppins";
+}
+
+.navbar {
+  display: center;
+  padding: 2em 5em 2em 5em;
+}
+
+.navbar .primary-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  place-content: space-between;
+}
+
+.navbar .primary-header a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.navbar .secondary-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+/*# sourceMappingURL=styles.css.map */
