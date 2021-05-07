@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Shippori Mincho", serif;
+  box-sizing: border-box;
+}
+.contact-page {
+  display: flex;
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    text-align: left;
+  }
+}
+.personal-details h2 {
+  margin-top: 100px;
+  margin-right: 40px;
+  margin-left: -116px;
+  text-align: left;
+  width: 500px;
+}
+.conainer-personaldetails {
+  padding: 40px;
+  text-align: left;
+  .phone-icon {
+    margin-bottom: 10px;
+    .contact-module--phone {
+      margin-right: 7px;
+      color: rgb(182, 31, 5);
+    }
+  }
+  .email-icon {
+    margin-bottom: 10px;
+    .contact-module--email {
+      margin-right: 7px;
+      color: rgb(117, 84, 235);
+    }
+    a:link {
+      text-decoration: none;
+    }
+  }
+  .gitHub-icon {
+    margin-bottom: 10px;
+    .contact-module--git {
+      margin-right: 7px;
+      color: rgb(3, 146, 146);
+    }
+    a:link {
+      text-decoration: none;
+    }
+  }
+
+  .contact-module--link {
+    margin-right: 7px;
+    color: rgb(4, 136, 197);
+  }
+  a {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+}
+.Contact-Form h2 {
+  text-align: left;
+  margin-top: 100px;
+  //margin-bottom: 40px;
+}
+.form-inputs {
+  display: block;
+  margin-left: 0px;
+  padding: 40px;
+  input {
+    width: 48%;
+    height: 6vh;
+    margin-right: 1.5%;
+    margin-left: 1px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  textarea {
+    width: 98%;
+    height: 15vh;
+    border: none;
+    background-color: black;
+    color: rgb(200, 197, 192);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -9px;
+    margin-right: -5px;
+    margin-bottom: 8px;
+  }
+  .submit {
+    padding: 8px;
+    margin-left: 3px;
+    display: block;
+    background-color: black;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(247, 243, 236);
+  }
+}
+@media (max-width: 700px) {
+  .contact-page {
+    display: block;
+  }
+  .personal-details h2 {
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 10px;
+    text-align: left;
+    width: 500px;
+  }
+  .Contact-Form h2 {
+    text-align: left;
+    margin-top: 30px;
+    //margin-bottom: 40px;
+  }
+  /*  .contact-page {
+    margin-top: 230px;
+  }
+  .contact-page h1 {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .personal-details h2 {
+    text-align: left;
+    width: 100%;
+  }
+  .conainer-personaldetails {
+    padding: 40px;
+    text-align: left;
+    .phone-icon {
+      margin-bottom: 10px;
+      .contact-module--phone {
+        margin-right: 7px;
+        color: rgb(182, 31, 5);
+      }
+    }
+    .email-icon {
+      margin-bottom: 10px;
+      .contact-module--email {
+        margin-right: 7px;
+        color: rgb(117, 84, 235);
+      }
+      a:link {
+        text-decoration: none;
+      }
+    }
+    .gitHub-icon {
+      margin-bottom: 10px;
+      .contact-module--git {
+        margin-right: 7px;
+        color: rgb(3, 146, 146);
+      }
+      a:link {
+        text-decoration: none;
+      }
+    }
+
+    .contact-module--link {
+      margin-right: 7px;
+      color: rgb(4, 136, 197);
+    }
+    a {
+      font-size: 18px;
+      font-weight: normal;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+    }
+  }
+  .Contact-Form h2 {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .form-inputs {
+    display: block;
+    margin-left: -30px;
+    input {
+      width: 38%;
+      height: 4vh;
+      margin-right: 10px;
+      margin-bottom: 15px;
+
+      background-color: black;
+      color: blanchedalmond;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    textarea {
+      width: 77.5%;
+      height: 10vh;
+      border: none;
+      background-color: black;
+      color: rgb(200, 197, 192);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: -10px;
+      margin-bottom: 8px;
+    }
+    .submit {
+      padding: 8px;
+      margin-left: 10.6%;
+      display: block;
+      background-color: black;
+      border: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(247, 243, 236);
+    }
+  } */
+}
