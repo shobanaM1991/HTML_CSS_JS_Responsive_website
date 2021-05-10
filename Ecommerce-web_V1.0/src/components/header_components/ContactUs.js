@@ -41,7 +41,7 @@ function Contacts(){
             <div className="Contact-Form">
                 <h2>Contact Me Though the Contact Form I Built...</h2>
                 <div className="form-inputs">
-                    <form name="contact">
+                    <form name="contact" netlify>
                         <input type="text" name ="Name" placeholder="Name"></input>
                         <input type="text" name ="email" placeholder="Email"></input>
                         <textarea type="text" name ="message" placeholder="Message"></textarea>
