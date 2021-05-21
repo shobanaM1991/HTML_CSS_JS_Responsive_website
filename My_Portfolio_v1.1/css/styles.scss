@@ -73,3 +73,10 @@ header {
   width: 30px;
   margin-top: 2em;
 }
+.featured {
+  ul {
+    li {
+      display: flex;
+    }
+  }
+}
