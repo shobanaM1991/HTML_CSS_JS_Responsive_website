@@ -11,7 +11,6 @@ export default class Coursecart extends Component {
     }
     render() {
         //console.log(this.state.courses)
-
         return (
             <section className="my-5">
                 <div className="container">
