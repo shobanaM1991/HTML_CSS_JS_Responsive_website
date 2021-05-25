@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
-  background: #f2f2f2;
+  background: #cccccc;
   margin: 0;
   font-family: "poppins";
 }
@@ -21,7 +21,7 @@ img {
 }
 
 .nav-container {
-  background: #6700ee;
+  background: #404041;
 }
 
 .nav-container a {
@@ -39,7 +39,7 @@ header {
 }
 
 header .logo {
-  color: #00f7ff;
+  color: #00f7ff94;
   font-weight: bold;
 }
 
@@ -59,13 +59,17 @@ header ul a {
   display: none;
 }
 
+.scroll-stagger1 {
+  display: none;
+}
+
 .hero {
-  background: #6e00ff;
+  background: #aaaaac;
   color: white;
   display: -ms-grid;
   display: grid;
   text-align: center;
-  padding: 4em;
+  padding: 2em;
 }
 
 .meet {
@@ -75,7 +79,7 @@ header ul a {
   margin: 0 auto;
   width: 250px;
   font-weight: bold;
-  color: #ff64cb;
+  color: #2c011e81;
 }
 
 .meet span {
@@ -86,5 +90,162 @@ header ul a {
 .scroll-stagger1 {
   width: 30px;
   margin-top: 2em;
+}
+
+section {
+  padding: 2em 2em;
+  text-align: center;
+}
+
+section .subtitle {
+  margin: 1px;
+  text-transform: uppercase;
+}
+
+section .featured-dec {
+  font-size: 0.6em;
+}
+
+section .subtitle-right {
+  margin: 1px;
+  text-transform: uppercase;
+}
+
+section .featured-dec-right {
+  font-size: 0.6em;
+}
+
+section .subtitle-right1 {
+  margin: 1px;
+  text-transform: uppercase;
+}
+
+section .featured-dec-right1 {
+  font-size: 0.6em;
+}
+
+section a {
+  font-size: 0.6em;
+}
+
+img {
+  margin-top: 1px;
+  margin-bottom: 2px;
+  width: 250px;
+  height: 150px;
+}
+
+footer {
+  font-size: 0.5em;
+}
+
+@media only screen and (min-width: 600px) {
+  section {
+    text-align: left;
+  }
+  .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .left .inner-transition2 .subtitle {
+    margin: 1px 0px 1px 1px;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  .left .inner-transition2 .feature-title {
+    margin-left: 1px;
+    font-size: 0.7em;
+  }
+  .left .inner-transition2 p {
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-size: 0.6em;
+  }
+  .left .inner-transition2 p span {
+    color: blue;
+  }
+  .left .inner-transition2 a {
+    margin-left: 1px;
+    margin-top: 1px;
+    font-size: 0.7em;
+  }
+  .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .right .inner-transition2-right .subtitle-right {
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  .right .inner-transition2-right .feature-title-right {
+    margin-left: 1px;
+    font-size: 0.7em;
+  }
+  .right .inner-transition2-right p {
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-size: 0.6em;
+  }
+  .right .inner-transition2-right a {
+    margin-left: 1px;
+    margin-top: 1px;
+    font-size: 0.7em;
+  }
+  .left1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .left1 .inner-transition2 .subtitle {
+    margin: 1px 0px 1px 1px;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  .left1 .inner-transition2 .feature-title {
+    margin-left: 1px;
+    font-size: 0.7em;
+  }
+  .left1 .inner-transition2 p {
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-size: 0.6em;
+  }
+  .left1 .inner-transition2 a {
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 0.7em;
+  }
+  .right1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .right1 .inner-transition2-right1 .subtitle-right1 {
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  .right1 .inner-transition2-right1 .feature-title-right1 {
+    margin-left: 1px;
+    font-size: 0.7em;
+  }
+  .right1 .inner-transition2-right1 p {
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-size: 0.6em;
+  }
+  .right1 .inner-transition2-right1 a {
+    margin-left: 1px;
+    margin-top: 1px;
+    font-size: 0.7em;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-  background: #f2f2f2;
+  background: #cccccc;
   margin: 0;
   font-family: "poppins";
 }
@@ -20,7 +20,7 @@ img {
 }
 
 .nav-container {
-  background: #6700ee;
+  background: #404041;
   a {
     color: white;
   }
@@ -31,7 +31,7 @@ header {
   padding: 2em;
 
   .logo {
-    color: #00f7ff;
+    color: #00f7ff94;
     font-weight: bold;
   }
 
@@ -47,13 +47,16 @@ header {
 .hero-design {
   display: none;
 }
+.scroll-stagger1 {
+  display: none;
+}
 
 .hero {
-  background: #6e00ff;
+  background: #aaaaac;
   color: white;
   display: grid;
   text-align: center;
-  padding: 4em;
+  padding: 2em;
 }
 
 .meet {
@@ -61,7 +64,7 @@ header {
   margin: 0 auto;
   width: 250px;
   font-weight: bold;
-  color: #ff64cb;
+  color: #2c011e81;
 
   span {
     margin-top: 1em;
@@ -73,10 +76,149 @@ header {
   width: 30px;
   margin-top: 2em;
 }
-.featured {
-  ul {
-    li {
-      display: flex;
+section {
+  padding: 2em 2em;
+  text-align: center;
+  .subtitle {
+    margin: 1px;
+    text-transform: uppercase;
+  }
+  .featured-dec {
+    font-size: 0.6em;
+  }
+  .subtitle-right {
+    margin: 1px;
+    text-transform: uppercase;
+  }
+  .featured-dec-right {
+    font-size: 0.6em;
+  }
+  .subtitle-right1 {
+    margin: 1px;
+    text-transform: uppercase;
+  }
+  .featured-dec-right1 {
+    font-size: 0.6em;
+  }
+  a {
+    font-size: 0.6em;
+  }
+}
+img {
+  margin-top: 1px;
+  margin-bottom: 2px;
+  width: 250px;
+  height: 150px;
+}
+footer {
+  font-size: 0.5em;
+}
+@media only screen and (min-width: 600px) {
+  section {
+    text-align: left;
+  }
+  .left {
+    display: flex;
+    margin-bottom: 30px;
+    .inner-transition2 {
+      .subtitle {
+        margin: 1px 0px 1px 1px;
+        font-size: 1em;
+        text-transform: uppercase;
+      }
+      .feature-title {
+        margin-left: 1px;
+        font-size: 0.7em;
+      }
+      p {
+        margin-left: 1px;
+        margin-top: 1px;
+        margin-bottom: 0px;
+        font-size: 0.6em;
+        span {
+          color: blue;
+        }
+      }
+      a {
+        margin-left: 1px;
+        margin-top: 1px;
+        font-size: 0.7em;
+      }
+    }
+  }
+  .right {
+    display: flex;
+    .inner-transition2-right {
+      .subtitle-right {
+        font-size: 1em;
+        text-transform: uppercase;
+      }
+      .feature-title-right {
+        margin-left: 1px;
+        font-size: 0.7em;
+      }
+      p {
+        margin-left: 1px;
+        margin-top: 1px;
+        margin-bottom: 0px;
+        font-size: 0.6em;
+      }
+      a {
+        margin-left: 1px;
+        margin-top: 1px;
+        font-size: 0.7em;
+      }
+    }
+  }
+  .left1 {
+    display: flex;
+    margin-bottom: 30px;
+    .inner-transition2 {
+      .subtitle {
+        margin: 1px 0px 1px 1px;
+        font-size: 1em;
+        text-transform: uppercase;
+      }
+      .feature-title {
+        margin-left: 1px;
+        font-size: 0.7em;
+      }
+      p {
+        margin-left: 1px;
+        margin-top: 1px;
+        margin-bottom: 0px;
+        font-size: 0.6em;
+      }
+      a {
+        margin-left: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        font-size: 0.7em;
+      }
+    }
+  }
+  .right1 {
+    display: flex;
+    .inner-transition2-right1 {
+      .subtitle-right1 {
+        font-size: 1em;
+        text-transform: uppercase;
+      }
+      .feature-title-right1 {
+        margin-left: 1px;
+        font-size: 0.7em;
+      }
+      p {
+        margin-left: 1px;
+        margin-top: 1px;
+        margin-bottom: 0px;
+        font-size: 0.6em;
+      }
+      a {
+        margin-left: 1px;
+        margin-top: 1px;
+        font-size: 0.7em;
+      }
     }
   }
 }
