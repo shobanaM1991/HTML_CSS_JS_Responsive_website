@@ -3,6 +3,7 @@ body {
   background: #cccccc;
   margin: 0;
   font-family: "poppins";
+  width: 100%;
 }
 
 ul {
@@ -135,8 +136,12 @@ img {
   height: 150px;
 }
 
+.right {
+  margin-bottom: -60px;
+}
+
 footer {
-  font-size: 0.5em;
+  font-size: 0.6em;
 }
 
 @media only screen and (min-width: 600px) {
@@ -148,6 +153,7 @@ footer {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 30px;
+    margin-right: 30px;
   }
   .left .inner-transition2 .subtitle {
     margin: 1px 0px 1px 1px;
@@ -156,13 +162,13 @@ footer {
   }
   .left .inner-transition2 .feature-title {
     margin-left: 1px;
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   .left .inner-transition2 p {
     margin-left: 1px;
     margin-top: 1px;
     margin-bottom: 0px;
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
   .left .inner-transition2 p span {
     color: blue;
@@ -176,6 +182,8 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-right: 30px;
+    margin-bottom: -30px;
   }
   .right .inner-transition2-right .subtitle-right {
     font-size: 1em;
@@ -183,13 +191,13 @@ footer {
   }
   .right .inner-transition2-right .feature-title-right {
     margin-left: 1px;
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   .right .inner-transition2-right p {
     margin-left: 1px;
     margin-top: 1px;
     margin-bottom: 0px;
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
   .right .inner-transition2-right a {
     margin-left: 1px;
@@ -201,6 +209,7 @@ footer {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 30px;
+    margin-right: 30px;
   }
   .left1 .inner-transition2 .subtitle {
     margin: 1px 0px 1px 1px;
@@ -209,13 +218,13 @@ footer {
   }
   .left1 .inner-transition2 .feature-title {
     margin-left: 1px;
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   .left1 .inner-transition2 p {
     margin-left: 1px;
     margin-top: 1px;
     margin-bottom: 0px;
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
   .left1 .inner-transition2 a {
     margin-left: 1px;
@@ -227,6 +236,7 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-right: 30px;
   }
   .right1 .inner-transition2-right1 .subtitle-right1 {
     font-size: 1em;
@@ -234,18 +244,24 @@ footer {
   }
   .right1 .inner-transition2-right1 .feature-title-right1 {
     margin-left: 1px;
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   .right1 .inner-transition2-right1 p {
     margin-left: 1px;
     margin-top: 1px;
     margin-bottom: 0px;
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
   .right1 .inner-transition2-right1 a {
     margin-left: 1px;
     margin-top: 1px;
     font-size: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  image {
+    float: right;
   }
 }
 /*# sourceMappingURL=styles.css.map */
