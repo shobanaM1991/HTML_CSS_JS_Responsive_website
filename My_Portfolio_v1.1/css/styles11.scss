@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background: #cccccc;
+  margin: 0;
+  font-family: "poppins";
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  background: none;
+  width: 100%;
+}
+
+.nav-container {
+  background: #404041;
+  a {
+    color: white;
+  }
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+
+  .logo {
+    color: #00f7ff94;
+    font-weight: bold;
+  }
+
+  ul {
+    display: flex;
+    a {
+      display: block;
+      padding: 0 1em;
+    }
+  }
+}
+.social-header,
+.hero-design {
+  display: none;
+}
+.scroll-stagger1 {
+  display: none;
+}
+
+.hero {
+  background: #aaaaac;
+  color: white;
+  display: grid;
+  text-align: center;
+  padding: 2em;
+}
+
+.meet {
+  display: flex;
+  margin: 0 auto;
+  width: 250px;
+  font-weight: bold;
+  color: #2c011e81;
+
+  span {
+    margin-top: 1em;
+    margin-right: 0.5em;
+  }
+}
+
+.scroll-stagger1 {
+  width: 30px;
+  margin-top: 2em;
+}
+.featured {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.subtitle {
+  font-size: 100%;
+}
+.feature-title {
+  font-size: 70%;
+  text-transform: uppercase;
+}
+.featured-dec {
+  font-size: 70%;
+  margin: 2% 2% 2% 0%;
+}
+a {
+  font-size: 60%;
+}
+footer {
+  font-size: 50%;
+}
+@media (min-width: 600px) {
+  .featured {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 2%;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+  }
+
+  .featured-dec {
+    font-size: 70%;
+    margin: 0.5em 0.5em 0.5em 0em;
+  }
+  img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+}

@@ -232,8 +232,8 @@ footer {
     }
   }
 }
-@media only screen and (min-width: 1200px) {
-  image {
+@media screen and (min-width: 1200px) {
+  img {
     float: right;
   }
 }
