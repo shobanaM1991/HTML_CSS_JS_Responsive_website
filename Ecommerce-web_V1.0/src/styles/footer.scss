@@ -1,0 +1,44 @@
+.main-footer {
+  background: gray;
+}
+.container {
+  padding: 2%;
+  .row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    h4 {
+      text-transform: uppercase;
+    }
+    ul {
+      list-style-type: none;
+    }
+  }
+  .row1 {
+    display: flex;
+    margin-top: 5%;
+    .phone-icon {
+      margin-left: 35%;
+      margin-right: 3%;
+    }
+    .github-icon {
+      margin-right: 3%;
+    }
+    .email-icon {
+      margin-right: 3%;
+    }
+    .linkedin-icon {
+      margin-right: 3%;
+    }
+  }
+}
+.copyright {
+  background: rgb(88, 88, 88);
+  h4 {
+    margin-left: 35%;
+
+    span {
+      margin-left: 2%;
+      color: rgb(177, 170, 170);
+    }
+  }
+}

@@ -9,7 +9,7 @@ const HeaderSection = () => {
     const [showLinks, setShowLinks] = useState(false); 
     return( 
         <nav className ="navbar">
-            <div className = "logo">Electric Wheels</div>
+            <Link to="/home" style={{ textDecoration: 'none' }}><div className = "logo">Electric Wheels</div></Link>
             <div className ="navbarlinks" id={showLinks ? "hidden" : ""}>
                 <ul>
                     <Link to="/about" style={{ textDecoration: 'none' }}><li>About Us</li></Link>
