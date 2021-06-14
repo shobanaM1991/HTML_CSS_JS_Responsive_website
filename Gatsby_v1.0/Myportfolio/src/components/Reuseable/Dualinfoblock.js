@@ -16,7 +16,7 @@ export default function Dualinfoblock({heading}) {
                     </div>
                     <div className="col-4">
                         <div class="card">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfUKtEgJyJ0IkDKCENak3TMFYsE8uZqsdSrA&usqp=CAU" class="card-img-top" alt="image goes here" />
+                            <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfUKtEgJyJ0IkDKCENak3TMFYsE8uZqsdSrA&usqp=CAU" class="card-img-top" alt="image goes here" />
                             <div class="card-body">
                                 <h5 class="card-title text-success">Just click photos</h5>
                                 <p class="card-text">
