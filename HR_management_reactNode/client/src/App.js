@@ -10,6 +10,7 @@ function App() {
   const [country, setCountry]=useState(" ");
   const [position, setPosition]=useState(" ");
   const [wage, setWage]=useState(0);
+  const [newWage, setnewWage]=useState(0);
 
   const[employeeList, setEmployeeList] = useState([]);
 
@@ -37,6 +38,33 @@ function App() {
       setEmployeeList(response.data);
     });
   };
+
+  const updateEmployee = (id) => {
+    Axios.put('http://localhost:3001/update', {
+      wage: newWage,
+      id: id,
+    }).then((response) => {
+      setEmployeeList(employeeList.map((val)=> {
+        return val.id === id ? {
+          id:val.id,
+          name:val.name,
+          age:val.age,
+          position:val.position,
+          country:val.country,
+          wage:newWage,
+        }:val;
+      }))
+    });
+  };
+
+  const deleteEmployee = (id) => {
+    Axios.delete(`http://localhost:3001/delete/${id}`)
+    .then((response)=>{
+      setEmployeeList(employeeList.filter((val)=>{
+        return val.id != id;
+      }));
+    });
+  }
 
   return (
     <div className="App">
@@ -91,11 +119,23 @@ function App() {
       {employeeList.map((val, index) => {
         return (
         <div className="employee">
-          <h3>Name: {val.name}</h3>
-          <h3>Age: {val.age}</h3>
-          <h3>Position: {val.position}</h3>
-          <h3>Country: {val.country}</h3>
-          <h3>Wage: {val.wage}</h3>
+          <div className = "left">
+            <h3>Name: {val.name}</h3>
+            <h3>Age: {val.age}</h3>
+            <h3>Position: {val.position}</h3>
+            <h3>Country: {val.country}</h3>
+            <h3>Wage: {val.wage}</h3>
+          </div>
+          <div> 
+            <input
+              type="number"
+              placeholder= "2000"
+              onChange={(event)=>{
+                setnewWage(event.target.value)
+              }} />
+            <button onClick={() => {updateEmployee(val.id)}}>Update</button>
+            <button onClick={() => {deleteEmployee(val.id)}}>Delete</button>
+          </div>
         </div>
         );
       })}
