@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap");
+
+body {
+  padding: 0%;
+  margin: 0%;
+  background: linear-gradient(hsl(273deg, 75%, 66%), hsl(240deg, 73%, 65%));
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+}
+
+/* .container-inner {
+  border-radius: 2%;
+  margin: 15%;
+  display: flex; 
+  width: 70%;
+  height: 30%;
+  background: hsl(240, 5%, 91%);
+} */
+.logo {
+  /* flex: 10%; */
+  background-color: grey;
+}
+
+.container-inner {
+  background: hsl(240, 5%, 91%);
+  width: 100%;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+/* .desktop-logo .bottom-img1 {
+  margin-top: -31%;
+  margin-left: -50%;
+  width: auto;
+  height: auto;
+  position: relative;
+} */
+
+.desktop-logo .shadow-img {
+  margin-left: -60%;
+  margin-top: -30%;
+  margin-bottom: -10%;
+  clip-path: inset(30% 0% 0% 60%);
+  position: relative;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.desktop-logo #workspace-img {
+  margin-left: -48%;
+  margin-bottom: 12%;
+  clip-path: inset(0% 0% 0% 15.5%);
+  position: relative;
+  z-index: 2;
+  object-fit: cover;
+}
+/* .desktop-logo #mail-img {
+  margin-left: -51%;
+  margin-bottom: 16%;
+  position: relative;
+  z-index: 3;
+  object-fit: cover;
+} */
+
+.desktop-logo #mail-img {
+  position: relative;
+  left: 0px;
+  /* left: 0; */
+  /* z-index: 3;
+  object-fit: cover; */
+}
+
+/* .faq-questions {
+  flex: 90%;
+  background-color: rgb(44, 42, 196);
+} */
+/* background: linear-gradient(hsl(238deg, 29%, 16%), hsl(14deg, 88%, 65%)); */
+
+/* background: linear-gradient(hsl(237deg, 12%, 33%), hsl(240deg, 73%, 65%)); */

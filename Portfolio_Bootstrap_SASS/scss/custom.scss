@@ -1,8 +1,10 @@
-$body-bg: black;
+$body-bg: rgb(27, 26, 26);
 $body-color: white;
-$primary: rgb(36, 114, 240);
+$primary: #fafcff;
 
-$font-family-sans-serif: "poppins";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+
+$font-family-sans-serif: "Lato", sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -17,10 +19,12 @@ $font-family-sans-serif: "poppins";
   }
 }
 .custombg {
-  background: black url("../assets/abstract.91fe92b5.jpg");
+  background: rgb(43, 42, 42) url("../assets/abstract.91fe92b5.jpg");
   background-size: cover;
 }
 .card-img-top {
   object-fit: cover;
-  aspect-ratio: 1/ 0.7;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/ 0.5;
 }
