@@ -1,0 +1,54 @@
+.faq-app-row {
+  padding: 10%;
+  width: 50%;
+  max-width: 1440px;
+  background-color: rgb(56, 28, 121);
+  display: flex;
+}
+
+/* Create four equal columns that sits next to each other */
+.faq-answer {
+  width: 500px;
+}
+label {
+  display: block;
+  background-color: rosybrown;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+label::after {
+  position: absolute;
+  content: "+";
+}
+label:active,
+label:hover {
+  background-color: royalblue;
+}
+input {
+  display: none;
+}
+p {
+  font-size: 1em;
+  transform: scaleY(0);
+  height: 0;
+  transition: transform 0.5s ease-in-out;
+}
+#ac_1:checked ~ .text1 {
+  height: max-content;
+  transform: scaleY(1);
+}
+#ac_2:checked ~ .text1 {
+  height: max-content;
+  transform: scaleY(1);
+}
+#ac_2:checked ~ .text1 {
+  height: max-content;
+  transform: scaleY(1);
+}
+#ac_1:checked ~ .question::after {
+  content: "-";
+}
+#ac_2:checked ~ .question1::after {
+  content: "-";
+}
