@@ -1,0 +1,113 @@
+/* .container-md {
+    margin: 10%;
+    background-color:blueviolet
+} */
+
+
+html{
+    box-sizing: initial;
+    font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 10rem 1rem;
+    /* padding: 3rem; */
+    background: linear-gradient(rgb(121, 36, 121), rgb(70, 70, 238));
+    /* background-image: linear-gradient(var(--gradient-violet),var(--gradient-blue)); */
+}
+
+.card {
+    /* padding: 4em 4em; */
+    background-color:white;
+    border-radius: 2rem;
+    max-width: 56rem;
+    margin: 3rem;
+    background-image: url('../images/bg-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    background-size: 15rem;
+}
+.card__image{
+    position: relative;
+}
+.card__image img{
+    position: absolute;
+    top: -6.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 15rem;
+    margin: auto;
+   
+}
+
+.card__text{
+padding-top: 7rem;
+margin-bottom: 1rem;
+}
+
+.desktop_box{
+    display: none;
+}
+.accordion-button {
+    width: 80%;
+}
+.mb-5 {
+    margin-top: -2rem;
+}
+
+@media screen and (min-width: 56em) {
+    body{
+        padding: 5rem;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin: 0 auto;
+        padding-right: 2rem;
+        background-image: url('../images/bg-pattern-desktop.svg');
+        background-position: -13% center;
+        background-repeat: no-repeat;
+        background-size: 25rem;
+    }
+    
+    .desktop_box{
+        display: block;
+        position: absolute;
+        top: 59%;
+        left: 0;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: 1;
+    }
+
+    .card__image, .card__text{
+        flex: 1;
+    }
+
+    .card__image {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+    .card__image img{
+        position: relative;
+        top: auto;
+        left: auto;
+        max-width: 25rem;
+        transform: translateX(-4rem);
+    }
+    
+    
+}
