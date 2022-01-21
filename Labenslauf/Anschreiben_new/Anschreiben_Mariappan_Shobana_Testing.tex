@@ -1,0 +1,103 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11.5pt,a4paper,sans]{moderncv}  
+% possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                              % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}     
+\def\Plus{\texttt{+}}
+\def\Minus{\texttt{-}}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}   
+%\usepackage{dirtytalk}
+% if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\usepackage[english,ngerman]{babel}
+\usepackage{datetime} %german format
+% adjust the page margins
+\usepackage[scale=0.80]{geometry}
+%\usepackage[scale=0.85, left=1.2cm, right=1.2cm]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage{graphicx} %for signature
+
+\usepackage[document]{ragged2e}
+
+% personal data
+\name{\small Shobana}{Mariappan}
+\title{Cover Letter}                               % optional, remove / comment the line if not wanted
+\address{Wofskehle. 26,}{95326 Kulmbach}%{Deutschland}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+49~152~2996~2032}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{shobanamariappan1991@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{\small Schmitt GmbH }{91058 Erlangen \\ Deutschland}
+\subject{\small Bewerbung als Webentwicklerin }
+\date{\small \today}
+
+\opening{\vspace{-1mm} \small Sehr geehrte Damen und Herren,} % Sehr geehrte Frau Madlen Schreiner,}  
+\closing{\vspace{1mm} \small Mit freundlichen Grüßen \\ %\includegraphics[width=4cm]{Sign.pdf}
+\vspace{-14mm}}
+%\enclosure[\vspace{-7mm} \small Attachment]{\small Resume, Testimonies}         % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+\vspace*{-8mm}
+\justify
+	mit großem Interesse habe ich Ihre Stellenanzeige auf \underline{de.indeed.com} gesehen, da mein Interessengebiet im Bereich Entwicklung und Test liegt. Als Masterabsolvent der Computational Ingenieur mit praktische kenntnisse im Programmierung und Testen finde ich, dass der beschriebene Aufgabenbereich sehr gut zu meinem Interessen und Fähigkeiten passt.
+        
+Durch meine Arbeit bei Glen Dimplex habe ich sehr gute Erfahrungen mit der Python-Programmierung. Ich war an einem Projekt mit dem Titel "Qualifizierung der richtigen Drucksensoren anhand von Sensortestdaten"\ beteiligt, bei dem ich die Leistung von Drucksensoren verschiedener Hersteller getestet und analysiert habe. Um die Testdaten für die Analyse aufzubereiten, verwendete ich Python mit Datenverarbeitungsbibliotheken z.B. Pandas und Numpy, um die Daten zu bereinigen und mit Matplotlib und Seaborn zu visualisieren. Am Ende der Projektabwicklung habe ich mit TKINTER und PyQt5 ein kleines Windows-Tool erstellt, das die Sensordateninformationen im CSV-Format empfängt, um sie im Hintergrund zu verarbeiten und die interaktiven Plots für Geschäftsentscheidungen zu erstellen. Für meine Programmieraufgaben verwendete ich die Open-Source IDE "Visual Studio Code"\ von Microsoft, die eine Vielzahl von Plugins für die Programmierung in verschiedenen Sprachen bietet. 
+
+In meinem Bachelorstudium interessierte ich mich für das Testen von Software. In einer kurzen Ausbildung lernte ich verschiedene Methoden des Softwaretestens als Theorie kennen. Nach der Ausbildung habe ich als Software Engineer bei Accenture gearbeitet. Ich habe gute Erfahrungen im manuellen Testen durch Kundenprojekte der Bank of America, in denen ich Testfälle für Online-Banking-Anwendungen auf Basis der Kundenanforderungen entwickelt habe. Zu Beginn der Tests habe ich die Anforderungen und Designdokumente geprüft, Informationen von Kunden gesammelt und Testdaten vorbereitet. Während der Testausführung identifizierte und protokollierte ich die Fehler, verfolgte sie, bis sie behoben waren, und schloss die Fehler durch erneutes Testen. Nach der Testausführung identifizierte ich Tests für die Automatisierungstests und schrieb Skripte für die Automatisierungstests unter Verwendung des Selenium Unittest-Frameworks. Zusätzlich zu den Tests erstellte ich einen Statusbericht mit dem Status der Testfälle und den Fehlern, die die Testfälle blockierten, und gab ihn an den Testmanager weiter.
+
+Neben Python und Softwaretests habe ich grundlegende Javascript-Erfahrung mit React, Angular CLI und Gatsby-Bibliotheken zur Entwicklung von E-Commerce-Projekten. Ich habe eine E-Bike-Website in React mit CSS und eine E-Learning-Website in Gatsby mit Bootstrap entwickelt, und der Inhalt wird in Contenful gehostet. Ich verbessere meine React- und Gatsby-Kenntnisse täglich, indem ich verschiedene Konzepte erforsche und sie in meine E-Commerce-Website integriere. Das Projekt "The Employee Management System"\ gibt mir die Möglichkeit, eine Anwendung zum Hinzufügen eines Mitarbeiters und zur Aktualisierung seiner Daten mit React, Nodejs und MySQL zu erstellen. Ich habe die CRUD-Anwendung mit dem PHP-Framework Symfony entwickelt, was mir die Möglichkeit gibt, Twig zu lernen und es auf Github zu veröffentlichen. Shopware hat die Entwicklung meiner E-Commerce-Website sehr vereinfacht und motiviert mich, Kenntnisse in der Template- und Entwicklerschulung zu erwerben. 
+%Ich denke, dass WordPress sehr interessant ist, um großartige Websites zu erstellen. Das Miniprojekt "Find Your Vacation Destination" bringt mich dazu, WordPress Elementor zu lernen
+
+Darüber hinaus bringe ich durch meine bisherige berufliche Tätigkeit Kommunikations- und Teamfähigkeit, eine selbstständige und strukturierte Arbeitsweise sowie ein hohes Maß an Eigeninitiative mit. Sehr gute Englisch- und gute Deutschkenntnisse runden mein Profil ab. Mit meinem Fachwissen und meinen Fähigkeiten möchte Ich mich in Ihr innovatives Unternehmen einbringen und zu dessen Erfolg beitragen.
+%Mit meinem Fachwissen und meinen Fähigkeiten möchte ich mich in Ihr innovatives Unternehmen einbringen und somit zum Erfolg von BRANDMARKER GmbH und seiner Produkte beitragen.
+
+Ich freue mich über die Einladung zu einem persönlichen Gespräch.
+
+\makeletterclosing
+\vspace{0.5mm}
+
+\end{document}
+%mit großem interesse habe ich ihr stellenangebot auf ihrer Website gelesen, da mein Interessengebiet die Entwicklung und Test sind. Ich habe meinen Master in Computational Engineering von der Friedrich-Alexander-Universität, Erlangen-Nürnberg, Deutschland. Ich habe die Fähigkeit, selbständig zu arbeiten, Probleme rechtzeitig und genau zu lösen. Aus diesem Grund bewerbe ich mich bei Ihnen als Software Test Ingenieur in Festanstellung.
+
+%Ich arbeitete ein Jahr lang bei der GlenDimplex Deutschland GmbH als Laboringenieur. Dort habe Ich in einem Projekt mit dem Titel "Qualifizierung der richtigen Drucksensoren anhand von Sensortestdaten" gearbeitet, in dem ich die Leistung von Drucksensoren verschiedener Hersteller getestet und analysiert habe. Um die Testdaten für die Analyse zu verarbeiten, habe ich Python-Programmierung mit Datenverarbeitungsbibliotheken wie Pandas und Numpy verwendet, um die Daten zu bereinigen und sie mit Matplotlib und Seaborn zu visualisieren.
+
+%Während des Projektabschlusses wurde ich gebeten, ein kleines Windows-Tool mit TKINTER und PyQt5 zu erstellen, das die Sensordateninformationen im CSV-Format erhält, um sie im Hintergrund zu verarbeiten und die interaktiven Plots für Geschäftsentscheidungen zu erstellen. Für meine Programmieraufgaben verwendete ich die Open-Source IDE "Visual Studio Code" von Microsoft, die eine Vielzahl von Plugins für die Programmierung in verschiedenen Sprachen bietet.
+
+%Nach meinem Bachelor-Abschluss habe ich drei Jahre lang als Software-Ingenieur bei Accenture Services Limited, Indien, gearbeitet. Ich habe an den detaillierten Testprozessen gearbeitet, die ein Projekt von der Anfangsphase bis zur endgültigen Freigabe begleiten. Dies beinhaltet das Verstehen von Business Requirements Documents (BRD) und Functional Requirements Documents (FRD), Testplanung, Testfallentwicklung, Testdurchführung und Fehlerprotokollierung. In Gesprächen mit Kunden habe ich gute Erfahrungen darin gesammelt, die Anforderungen des Kunden zu verstehen und  Use cases für Tests zu erstellen. Für die Automatisierungstests habe ich das Selenium-Python-Framework Unittest verwendet, um Automatisierungstestfälle mit Konzepten zur Page Object Modelling zu entwickeln. Ich habe das Tool JIRA verwendet, um die Testfälle zu schreiben, die Tests auszuführen und Fehler zu protokollieren. Ich habe QC verwendet, um manuelle Tests, Fehlerverfolgung und Fehlerprotokollierung in den Bereichen Mobile Testing, Browser Testing und Debit, Credit Card Testing durchzuführen.
+
+%Ich arbeite derzeit an einem Freien Projekt, schreibe Testfälle und führe die Testfälle anschließend in der Jenkins-Pipeline aus. Neben der Programmierung bereite ich mich auf die ISTQB-Zertifizierung vor. Ich habe Grundkenntnisse in Docker und gute Kenntnisse in Git. Ich möchte Ideen zu Prototypen austauschen. Ich schaffe es, selbständig mit einem planmäßigen Ansatz zu arbeiten, und ich glaube, dass der Austausch von Ideen mit Ihrem Team bessere Ergebnisse bringt. Wenn Sie mehr über mich oder meine Berufserfahrung erfahren möchten, können Sie mich gerne kontaktieren.
+
+%Grundlegende Erfahrungen mit Jenkins und Docker habe ich durch ein selbstgewähltes Projekt in Selenium mit Python, bei dem ich ein Automatisierungstest-Skript für ein Demo-Onlineportal namens ''Orange HRM Open Source Management'' erstellt habe. Neben dem Projekt bereite ich mich derzeit auf die ISTQB-Zertifizierung vor und werde bald mein Zertifikat erhalten. 
